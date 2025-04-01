@@ -11,6 +11,8 @@ export default {
     ],
     theme: {
         extend: {
+
+            /*
             fontFamily: {
                 sans: ['Instrument Sans', ...defaultTheme.fontFamily.sans],
             },
@@ -71,6 +73,7 @@ export default {
                     ring: 'hsl(var(--sidebar-ring))',
                 },
             },
+            */
         },
     },
     plugins: [require('tailwindcss-animate')],
