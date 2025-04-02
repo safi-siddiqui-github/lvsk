@@ -125,5 +125,5 @@
         "resources/js/**/*.tsx", 
         "resources/js/**/*.vue",
         "vite-env.d.ts"
-    ]
+, "resources/js/pages/dashboard.tsxqwe", "public/js copy 2/pages/auth/verification-notice.tsxqw", "public/js copy 2/pages/auth/register.tsxqwe", "public/js copy 2/pages/auth/password-reset.tsxasd", "public/js copy 2/pages/auth/password-forgot.tsxasad"    ]
 }

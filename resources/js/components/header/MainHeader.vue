@@ -5,12 +5,12 @@ import NormalLink from '@/components/link/NormalLink.vue';
 import PrimaryLink from '@/components/link/PrimaryLink.vue';
 import SecondaryLink from '@/components/link/SecondaryLink.vue';
 import PrimaryLogout from '@/components/logout/PrimaryLogout.vue';
+import EmphasizeText from '@/components/text/EmphasizeText.vue';
 import { cn } from '@/lib/utils';
 import { UserModelType } from '@/types/models';
 import { usePage } from '@inertiajs/vue3';
 import { Archive, ChartBarStacked, CircleX, Menu, Search, ShoppingBag, ShoppingCart } from 'lucide-vue-next';
 import { ref } from 'vue';
-import EmphasizeText from '@/components/text/EmphasizeText.vue';
 
 const { auth } = usePage<{ auth: { user: UserModelType } }>().props;
 
